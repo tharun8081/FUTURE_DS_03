@@ -40,10 +40,8 @@ The Power BI dashboard includes:
 
 * KPI Cards (Visitors, Leads, Customers, Conversion Rate)
 * Funnel Chart (Customer Journey)
-* Drop-off Analysis
 * Conversion Rate by Channel
 * Conversion Trend Over Time
-* Device-wise Performance
 * Insights & Recommendations
 
 📸 Dashboard Preview:
