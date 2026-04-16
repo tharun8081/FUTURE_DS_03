@@ -1,77 +1,78 @@
-# 📊 Marketing Funnel & Conversion Performance Analysis
+# 📊 Marketing Funnel & Conversion Performance Analysis (SQL + Power BI)
 
-### 🎓 Data Science & Analytics Internship – Task 3 (2026)
+## 🎓 Final Task – Data Science & Analytics Internship (2026)
 
 **By Future Interns**
 
 ---
 
-## 🔍 About the Project
+## 🔍 Project Overview
 
-This project focuses on analyzing a marketing funnel to understand how users move through different stages:
+This project analyzes how users move through a marketing funnel from:
 
 **Visitors → Leads → Customers**
 
-The objective is to identify drop-off points, evaluate marketing performance, and provide data-driven recommendations to improve conversion rates.
+The goal is to identify **drop-off points**, evaluate **marketing performance**, and generate **data-driven strategies** to improve conversion rates and business growth.
 
 ---
 
-## 🎯 Objectives
+## 🎯 Business Questions
 
-* Analyze user journey across the marketing funnel
-* Calculate conversion rates at each stage
-* Identify major drop-off points
-* Compare performance across channels, campaigns, and devices
-* Provide actionable business recommendations
+* Where are users dropping off in the funnel?
+* Which channels generate high-quality conversions?
+* Which device performs best?
+* What stage needs optimization?
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 * **SQL** – Data querying and analysis
-* **Power BI** – Dashboard creation and visualization
-* **Excel / CSV** – Data storage and preprocessing
+* **Power BI** – Dashboard & visualization
+* **Excel / CSV** – Dataset
 
 ---
 
-## 📊 Dashboard Overview
+## 📊 Dashboard Preview
+<img width="1919" height="1079" alt="dashboard1_Screenshot0" src="https://github.com/user-attachments/assets/3baf9b98-bda8-4a37-a7c3-ed357489a34e" />
 
-The Power BI dashboard includes:
 
-* KPI Cards (Visitors, Leads, Customers, Conversion Rate)
-* Funnel Chart (Customer Journey)
-* Conversion Rate by Channel
-* Conversion Trend Over Time
-* Insights & Recommendations
-
-📸 Dashboard Preview:
-
----<img width="1919" height="1079" alt="dashboard1_Screenshot0" src="https://github.com/user-attachments/assets/5bc37156-9728-4b0a-a117-ab9ba0d9421b" />
-
+---
 
 ## 📈 Key Metrics
 
-* **Lead Conversion Rate** = Leads / Visitors
-* **Customer Conversion Rate** = Customers / Leads
-* **Overall Conversion Rate** = Customers / Visitors
+* Total Visitors
+* Total Leads
+* Total Customers
+* Lead Conversion Rate
+* Customer Conversion Rate
+* Overall Conversion Rate
 
 ---
 
 ## 🔍 Key Insights
 
-* Significant drop-off observed from **Visitors to Leads (~70%)**
+* ~70% drop-off observed from **Visitors to Leads**, indicating weak lead capture
 * **Google & Email channels** generate the highest conversions
 * **Instagram** shows the lowest performance
 * **Mobile users** have lower conversion rates compared to Desktop
 
 ---
 
+## 📊 Business Impact
+
+* Improving lead conversion by even **10%** can significantly increase customer acquisition
+* Optimizing mobile experience can recover **15–20% lost users**
+* Focusing on high-performing channels can improve **marketing ROI**
+
+---
+
 ## 💡 Recommendations
 
-* Improve landing page design to increase lead capture
-* Focus marketing budget on high-performing channels
+* Improve landing page UX to increase lead generation
+* Focus budget on high-performing channels (Google & Email)
 * Optimize mobile user experience
-* Implement retargeting strategies for dropped users
+* Retarget users who dropped off in the funnel
 
 ---
 
@@ -79,51 +80,52 @@ The Power BI dashboard includes:
 
 SQL was used to:
 
-* Aggregate funnel stage data
+* Aggregate funnel metrics
 * Calculate conversion rates
 * Analyze drop-offs between stages
 * Compare performance by channel and device
 
-📂 SQL file: `sql/analysis.sql`
+📂 SQL File: `sql/analysis.sql`
 
 ---
 
 ## 📁 Project Structure
 
-```
+```id="q3t7l8"
 Marketing-Funnel-Analysis/
 │
-├── data/              # Dataset used
+├── data/              # Dataset
 ├── sql/               # SQL queries
 ├── dashboard/         # Power BI file (.pbix)
-├── screenshots/       # Dashboard image
+├── screenshots/       # Dashboard images
 └── README.md
 ```
 
 ---
 
-## 🚀 Learning Outcomes
+## 🚀 Outcome
 
-* Funnel and conversion analysis
-* Marketing analytics concepts
-* KPI tracking and performance evaluation
-* Business insight generation
+This project demonstrates:
+
+* End-to-end data analysis workflow
+* Business-focused insight generation
+* Marketing analytics understanding
 * Data-driven decision making
 
 ---
 
 ## 📢 Internship Submission
 
-This project is submitted as part of:
+This project is submitted as the **Final Task** for:
 
-**Data Science & Analytics Internship – Task 3 (2026)**
+**Data Science & Analytics Internship (2026)**
 by **Future Interns**
 
 ---
 
 ## 👤 Author
 
-sakavarapu tharun
-(Data Analyst | SQL | Power BI)
+**sakavarapu Tharun**
+Aspiring Data Analyst | SQL | Power BI
 
 ---
